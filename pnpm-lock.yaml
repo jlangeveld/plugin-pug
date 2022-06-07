@@ -8,7 +8,7 @@ specifiers:
   benchmark: ~2.1.4
   eslint: ~8.17.0
   eslint-config-prettier: ~8.5.0
-  eslint-define-config: ~1.5.0
+  eslint-define-config: ~1.5.1
   eslint-gitignore: ~0.1.0
   eslint-plugin-inclusive-language: ~2.2.0
   eslint-plugin-jsdoc: ~39.3.2
@@ -18,7 +18,7 @@ specifiers:
   prettier-plugin-organize-imports: ~2.3.4
   pug-lexer: ^5.0.0
   typescript: ~4.7.3
-  vite: ~2.9.9
+  vite: ~2.9.10
   vitepress: 1.0.0-alpha.1
   vitest: ~0.13.1
 
@@ -33,7 +33,7 @@ devDependencies:
   benchmark: 2.1.4
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0_eslint@8.17.0
-  eslint-define-config: 1.5.0
+  eslint-define-config: 1.5.1
   eslint-gitignore: 0.1.0_eslint@8.17.0
   eslint-plugin-inclusive-language: 2.2.0
   eslint-plugin-jsdoc: 39.3.2_eslint@8.17.0
@@ -42,7 +42,7 @@ devDependencies:
   prettier: 2.6.2
   prettier-plugin-organize-imports: 2.3.4_swzprww56tbt6xqyypkb3snuza
   typescript: 4.7.3
-  vite: 2.9.9
+  vite: 2.9.10
   vitepress: 1.0.0-alpha.1
   vitest: 0.13.1
 
@@ -413,14 +413,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/2.3.3_vite@2.9.9+vue@3.2.36:
+  /@vitejs/plugin-vue/2.3.3_vite@2.9.10+vue@3.2.36:
     resolution: {integrity: sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.9
+      vite: 2.9.10
       vue: 3.2.36
     dev: true
 
@@ -1041,8 +1041,8 @@ packages:
       eslint: 8.17.0
     dev: true
 
-  /eslint-define-config/1.5.0:
-    resolution: {integrity: sha512-2C6tmeMRAXQ+y5vxbXsOjn/CTmMseJ0eRXsK+ThFEjeibSpMmurPq2SjBGzl5Ha4pTpVSMJQc0lzE8Y3hPYbHQ==}
+  /eslint-define-config/1.5.1:
+    resolution: {integrity: sha512-6gxrmN7aKGffaO8dCtMMKyo3IxbWymMQ248p4lf8GbaFRcLsqOXHFdUhhM0Hcy1NudvnpwHcfbDf7Nh9pIm1TA==}
     engines: {node: '>= 14.6.0', npm: '>= 6.0.0', pnpm: '>= 7.0.0'}
     dev: true
 
@@ -2062,8 +2062,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.9.9:
-    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
+  /vite/2.9.10:
+    resolution: {integrity: sha512-TwZRuSMYjpTurLqXspct+HZE7ONiW9d+wSWgvADGxhDPPyoIcNywY+RX4ng+QpK30DCa1l/oZgi2PLZDibhzbQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -2093,11 +2093,11 @@ packages:
     dependencies:
       '@docsearch/css': 3.1.0
       '@docsearch/js': 3.1.0
-      '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
+      '@vitejs/plugin-vue': 2.3.3_vite@2.9.10+vue@3.2.36
       '@vueuse/core': 8.6.0_vue@3.2.36
       body-scroll-lock: 4.0.0-beta.0
       shiki: 0.10.1
-      vite: 2.9.9
+      vite: 2.9.10
       vue: 3.2.36
     transitivePeerDependencies:
       - '@types/react'
@@ -2135,7 +2135,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.3
       tinyspy: 0.3.2
-      vite: 2.9.9
+      vite: 2.9.10
     transitivePeerDependencies:
       - less
       - sass
